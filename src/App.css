@@ -1,0 +1,81 @@
+body {
+  padding-top: 20px;
+  background-color: #f8f9fa;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+#title {
+  color: rgb(228, 213, 0);
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3px;
+  border-radius: 10px;
+}
+
+.card-img-top {
+  padding: 5px;
+  width: auto;
+  height: 150px;
+  object-fit: contain;
+}
+
+.card-body {
+  flex: 1;
+}
+
+.cart-card {
+  max-width: 320px;
+  height: auto;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.cart-card .card-body {
+  padding: 10px;
+}
+
+.cart-card .img-fluid {
+  width: 40px;
+  margin-right: 15px;
+}
+
+.card-footer {
+  background-color: transparent;
+  border-top: none;
+}
+
+.btn {
+  border-radius: 45px;
+}
+
+.btn-warning,
+.btn-warning:hover {
+  background-color: rgb(228, 213, 0);
+  width: 50%;
+  font-size: smaller;
+  cursor: default;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #c82333;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .cart-card {
+    max-width: 350px;
+    height: auto;
+    margin: auto;
+  }
+}
